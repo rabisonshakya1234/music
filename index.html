@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- box-icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>music website</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> 
+      <div class="container-fluid text-center">
+        <a class="navbar-brand text-capitalize" href="#">music <b>.</b></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item px-3">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link text-capitalize" href="about.html">about</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link text-capitalize" href="music.html">music</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link text-capitalize" href="contact.html">contact</a>
+            </li>
+          </ul>
+          <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search...">
+            <button id="search-button">Search</button>
+        </div>
+        </div>
+      </div>
+    </nav>
+    <!-- home -->
+    <section class="home">  
+      <div class="container">
+        <div class="text-center">
+          <hr/ class="w-25 m-auto">
+        </div>
+        <div class="row my-5 py-5">
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <h1>Awasome Music<br /><span class="auto-type"></span></h1>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12 rounded-circle">
+            <img
+            src="https://thumbs.dreamstime.com/b/luxury-music-logo-design-golden-shiny-musical-emblem-vector-illustration-luxury-music-logo-design-golden-shiny-musical-emblem-111618781.jpg" class="img-fluid img-thumbnail rounded-circle"
+            alt=""
+          />
+          </div>
+        </div>
+      </div>
+    </section>
+    <button class="light"><i class='bx bx-sun'></i></button>
+    <!-- home end-->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: [
+          "Bollywood music",
+          "Nepali Music",
+          "English Music",
+          "Newari Music",
+          "relaxing music",
+        ],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+      });
+    </script>
+ <script src="theme.js"></script>
+ <script src="search.js"></script>
+  </body>
+</html>
